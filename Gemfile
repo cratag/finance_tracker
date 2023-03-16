@@ -17,6 +17,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 # Devise for Authentication
 gem 'devise', '~> 4.7', '>= 4.7.3'
+# Devise Views
+gem 'devise-bootstrap-views', '~> 1.0'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
