@@ -26,6 +26,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 # Finance Tracker: Yahoo
 gem 'basic_yahoo_finance'
 
+# Font Awesome
+gem "font-awesome-rails"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -39,6 +42,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'sqlite3', '~> 1.4'
+  gem 'pry'
 end
 
 group :test do
