@@ -58,6 +58,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    basic_yahoo_finance (0.3.1)
     bcrypt (3.1.18)
     bindex (0.8.1)
     bootsnap (1.16.0)
@@ -233,6 +234,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  basic_yahoo_finance
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
